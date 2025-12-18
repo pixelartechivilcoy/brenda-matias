@@ -37,12 +37,13 @@ body {
 /* Foto principal */
 .foto-portada img {
   position: relative;
-  max-width: 92%;
-  max-height: 92%;
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
   z-index: 1;
-  border-radius: 6px;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+  border-radius: 0;
+  box-shadow: none;
 }
 
 /* Contenido siguiente */
@@ -922,3 +923,4 @@ body {
 .music-btn.paused {
   opacity: 0.65;
 }
+
